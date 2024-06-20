@@ -5,6 +5,7 @@ from argparse import ArgumentParser
 from csv import DictReader
 from math import log2
 
+
 def read_dataset(path: str) -> list[dict[str, str]]:
     rows = []
 
